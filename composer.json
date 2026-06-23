@@ -1,0 +1,16 @@
+{
+  "name": "nomad-traveler/website",
+  "description": "Nomad Traveler - Digital Travel Identity & Membership Platform",
+  "type": "project",
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "NomadTraveler\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+# PHP
+vendor/
+composer.lock
+.env
+.env.local
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node (if needed)
+node_modules/
+npm-debug.log
+
+# Cache
+.cache/
+temp/
+
+# Database
+*.db
+*.sqlite
